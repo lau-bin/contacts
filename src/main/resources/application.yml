@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: @spring.profiles.active@
+  application:
+  name: compass-challenge
+  shell:
+    interactive:
+      enabled: true
+logging:
+  file:
+    name: logs/app_logs.log
